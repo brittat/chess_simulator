@@ -1,0 +1,15 @@
+- job:
+    name: chess_simulator_base
+    run: playbooks/chess_simulator_base.yaml
+
+#- job:
+#    name: black
+#    run: playbooks/black.yaml
+#
+- project:
+    check:
+      jobs:
+        - chess_simulator_base
+    gate:
+      jobs:
+        - chess_simulator_base
