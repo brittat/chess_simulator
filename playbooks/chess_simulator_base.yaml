@@ -2,6 +2,9 @@
   tasks:
     - debug:
         msg: Hello world!
+    - shell: ls -l src/gerrit/chess_simulator/ci
+    - shell: src/gerrit/chess_simulator/ci/check.sh
+
 #    - name: install black pip package 
 #      pip:
 #        name: black==23.7.0
