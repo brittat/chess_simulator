@@ -5,7 +5,7 @@
     - shell: ls -l src/gerrit/chess_simulator/ci
     - shell: src/gerrit/chess_simulator/ci/check.sh
 
-#    - name: install black pip package 
+#    - name: install black pip package
 #      pip:
 #        name: black==23.7.0
 #    - name: Run black
