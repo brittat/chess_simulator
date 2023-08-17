@@ -1,4 +1,10 @@
 import argparse
+import chess
+import chess.svg
+
+class Chess:
+    def __init__(self):
+        self.board = chess.Board()
 
 if __name__ == "__main__":
 
